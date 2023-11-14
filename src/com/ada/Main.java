@@ -8,6 +8,7 @@ public class Main {
 
         System.out.println("La suma es: " + suma(number1, number2));
         System.out.println("La resta es: " + resta(number1, number2));
+        System.out.println("La multiplicacion es: " + multiplicacion(number1, number2));
 
     }
 
@@ -17,5 +18,9 @@ public class Main {
 
     private static double suma(double number1, double number2) {
         return number1 + number2;
+    }
+
+    private static double multiplicacion(double number1, double number2) {
+        return number1 * number2;
     }
 }
