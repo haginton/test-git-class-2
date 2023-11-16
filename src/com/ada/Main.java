@@ -29,5 +29,13 @@ public class Main {
         return number1 / number2;
     }
 
+    private static double potencia(double base, double exponente) {
+        double potencia = 1;
+        for (int i = 0; i < exponente; i++) {
+            potencia *= base;
+        }
+        return potencia;
+    }
+
 
 }
