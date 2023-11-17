@@ -9,7 +9,8 @@ public class Main {
         System.out.println("La suma es: " + suma(number1, number2));
         System.out.println("La resta es: " + resta(number1, number2));
         System.out.println("La multiplicacion es: " + multiplicacion(number1, number2));
-	System.out.println("La division es: " + division(number1, number2));
+	    System.out.println("La division es: " + division(number1, number2));
+	    System.out.println("La potencia de " + number1 + " elevado a " + number2 + " es: " + potencia(number1, number2));
 
     }
 
@@ -29,5 +30,8 @@ public class Main {
         return number1 / number2;
     }
 
+    private static double potencia(double base, double exponente) {
+        return Math.pow(base, exponente);
+    }
 
 }
